@@ -1,4 +1,4 @@
-# Multi-Item Price Tally
+# Pre-Checkout Price Tally & Budget Tracker
 
 ## Project Description
 A Python console system that acts as an advanced pre-checkout budget companion. It allows users to track quantities, select from preset school supplies, monitor live budget limits, and automatically export a text-file receipt before paying.
