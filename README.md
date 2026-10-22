@@ -5,10 +5,15 @@ A Python console system that acts as an advanced pre-checkout budget companion. 
 
 ## Features
 -Preset Item Menu: Quick selection from a catalog of common school supplies using number codes.
+
 -Quantity Multiplier: Choose how many pieces of an item you want, automatically multiplying the price.
+
 -Custom Item Entry: Manual entry for unlisted items with strict input validation to block negative numbers or typos.
+
 -Live Budget Tracker: Real-time budget monitoring with instant warnings if an added item exceeds your limit.
+
 -Receipt Text File Export: Automatically generates and saves a downloadable receipt.txt file of your purchase summary.
+
 -Modular Design: Built cleanly using Python functions (def) for structured, professional code organization.
 
 ## How to run the program
