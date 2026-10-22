@@ -49,13 +49,10 @@ Added: 1x Correction Tape (₱45.00) | Remaining Budget: ₱35.00
 
 Select option: 0 (Checkout)
 
-======================
-   Summary of Items
-======================
-2x Notebook - ₱70.00
-1x Correction Tape - ₱45.00
---------------------
-TOTAL PRICE: ₱115.00
+Summary of Items:
+2x Notebook - P70.00
+1x Correction Tape - P45.00
+TOTAL PRICE: P115.00
 
 [Success] Receipt successfully exported to 'receipt.txt'!
 
