@@ -32,19 +32,31 @@ A Python console system that acts as an advanced pre-checkout budget companion. 
 Enter your budget limit: 150.00
 
 [1] Notebook - ₱35.00
+
 [2] Ballpen - ₱12.00
+
 [3] Add Custom Item
+
 Select option: 1
+
 Enter quantity: 2
+
 Added: 2x Notebook (₱70.00) | Remaining Budget: ₱80.00
 
 [1] Notebook - ₱35.00
+
 [2] Ballpen - ₱12.00
+
 [3] Add Custom Item
+
 Select option: 3
+
 Enter custom item name: Correction Tape
+
 Enter custom item price: 45.00
+
 Enter quantity: 1
+
 Added: 1x Correction Tape (₱45.00) | Remaining Budget: ₱35.00
 
 Select option: 0 (Checkout)
