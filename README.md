@@ -1,29 +1,58 @@
 # Multi-Item Price Tally
 
 ## Project Description
-This is a python program that helps in checking the total price of one or multiple products.
+A Python console system that acts as an advanced pre-checkout budget companion. It allows users to track quantities, select from preset school supplies, monitor live budget limits, and automatically export a text-file receipt before paying.
 
 ## Features
-- Enter name of product/s and price/s
-- Calculate total price
-- Show the list of products that were input by user and also the total price
+-Preset Item Menu: Quick selection from a catalog of common school supplies using number codes.
+-Quantity Multiplier: Choose how many pieces of an item you want, automatically multiplying the price.
+-Custom Item Entry: Manual entry for unlisted items with strict input validation to block negative numbers or typos.
+-Live Budget Tracker: Real-time budget monitoring with instant warnings if an added item exceeds your limit.
+-Receipt Text File Export: Automatically generates and saves a downloadable receipt.txt file of your purchase summary.
+-Modular Design: Built cleanly using Python functions (def) for structured, professional code organization.
 
 ## How to run the program
-1. Make sure you have a Python compiler with IDE (to ensure for the code to work).
-2. Copy the code and paste it on your compiler.
-3. Click the button that makes the code run or click F5(does not apply to all IDE's, ex. VSCode).
-4. Follow the instructions shown in entering products and prices(to have the expected output, which are the list of products and total price)
+1. Open a Python IDE (such as VS Code or Programiz).
+2. Copy and paste the source code into a new file.
+3. Run the script.
+4. Follow the console instructions to set your budget, choose or input items, and view your summary.
 
 ## Inputs Needed
-1. Product name
-2. Product price
+-Initial budget limit
+-Menu selections or custom item names and prices
+-Item quantities (number of pieces)
+-Checkout/Exit command
 
 ## Example Output
-Enter product: Coke
-Enter price: 20.00
+Enter your budget limit: 150.00
 
-Products: Coke, Pepsi
-Total price of products: 40.00
+[1] Notebook - ₱35.00
+[2] Ballpen - ₱12.00
+[3] Add Custom Item
+Select option: 1
+Enter quantity: 2
+Added: 2x Notebook (₱70.00) | Remaining Budget: ₱80.00
+
+[1] Notebook - ₱35.00
+[2] Ballpen - ₱12.00
+[3] Add Custom Item
+Select option: 3
+Enter custom item name: Correction Tape
+Enter custom item price: 45.00
+Enter quantity: 1
+Added: 1x Correction Tape (₱45.00) | Remaining Budget: ₱35.00
+
+Select option: 0 (Checkout)
+
+====================
+   SUMMARY OF ITEMS
+====================
+2x Notebook - ₱70.00
+1x Correction Tape - ₱45.00
+--------------------
+TOTAL PRICE: ₱115.00
+====================
+
 
 ## Author
 - Student 1: Vander Gil S. Concepcion (entered the project description, the initial step-by-step process on how to run the program, inputs needed, and example output)
