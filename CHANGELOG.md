@@ -15,3 +15,6 @@ All notable changes to this project will be documented in this file.
 ## Version 2.0.0 - 2026-10-21
 ### Added
 - Added more features in the project proposal
+## Version 3.0.0 - 2026-10-21
+### Added
+- Revised the project proposal document with major changes 
