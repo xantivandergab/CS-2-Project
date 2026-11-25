@@ -34,9 +34,13 @@ Remove Item: If the total price exceeds the budget, the user is allowed to remov
 4. Follow the console instructions to set your budget, choose or input items, and view your summary.
 
 ## Inputs Needed
+
 -Initial budget limit
+
 -Menu selections or custom item names and prices
+
 -Item quantities (number of pieces)
+
 -Checkout/Exit command
 
 ## Example Output
