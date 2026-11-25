@@ -1,20 +1,31 @@
-# Pre-Checkout Price Tally & Budget Tracker
+# CartCheck: A Pre-Checkout Budget and Price Tracker 
 
 ## Project Description
 A Python console system that acts as an advanced pre-checkout budget companion. It allows users to track quantities, select from preset school supplies, monitor live budget limits, and automatically export a text-file receipt before paying.
 
 ## Features
--Preset Item Menu: Quick selection from a catalog of common school supplies using number codes.
 
--Quantity Multiplier: Choose how many pieces of an item you want, automatically multiplying the price.
+Preset Item Menu: A built-in catalog of 5 common school supplies using Python dictionary lookup, allowing users to select items quickly using number codes. 
 
--Custom Item Entry: Manual entry for unlisted items with strict input validation to block negative numbers or typos.
+Custom Item Entry with Validation: An option to manually type in unlisted items and prices, backed by input validation guardrails to block negative numbers, letters, or invalid inputs from crashing the program. 
 
--Live Budget Tracker: Real-time budget monitoring with instant warnings if an added item exceeds your limit.
+Quantity Multiplier: Allows users to input the number of pieces they want for any selected item, automatically multiplying the cost to calculate the subtotal. Planned Outputs: Interactive 
 
--Receipt Text File Export: Automatically generates and saves a downloadable receipt.txt file of your purchase summary.
+Menu Display: A clean, numbered list of available preset and custom options shown on the console.
 
--Modular Design: Built cleanly using Python functions (def) for structured, professional code organization.
+Live Budget Updates: Real-time feedback showing the updated running total and remaining budget after each entry. 
+
+Budget Warning Alerts: Instant notifications if an added item exceeds the user's set spending limit. 
+
+Final Itemized Summary: A receipt-style summary displayed on the console and automatically exported as a text file (receipt.txt), listing all items, quantities, subtotals, and the final total cost. 
+
+Live Budget Tracker & Warning System: Real-time budget monitoring that calculates running totals against an initial budget limit and alerts the user immediately if an item exceeds their remaining balance. 
+
+Receipt Text File Export: Automatically generates and saves a downloadable receipt.txt file containing the complete itemized purchase summary at the end of the session. 
+
+Modular Code Design: Built cleanly using Python functions (def) to organize the program into structured, professional logic blocks.
+
+Remove Item: If the total price exceeds the budget, the user is allowed to remove an item from the list.
 
 ## How to run the program
 1. Open a Python IDE (such as VS Code or Programiz).
@@ -37,6 +48,10 @@ Enter your budget limit: 150.00
 
 [3] Add Custom Item
 
+[4] Remove Item
+
+[5] Checkout
+
 Select option: 1
 
 Enter quantity: 2
@@ -49,6 +64,10 @@ Added: 2x Notebook (₱70.00) | Remaining Budget: ₱80.00
 
 [3] Add Custom Item
 
+[4] Remove Item
+
+[5] Checkout
+
 Select option: 3
 
 Enter custom item name: Correction Tape
@@ -59,7 +78,7 @@ Enter quantity: 1
 
 Added: 1x Correction Tape (₱45.00) | Remaining Budget: ₱35.00
 
-Select option: 0 (Checkout)
+Select option: 5 (Checkout)
 
 Summary of Items:
 2x Notebook - P70.00
