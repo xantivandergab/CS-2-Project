@@ -17,4 +17,8 @@ All notable changes to this project will be documented in this file.
 - Added more features in the project proposal
 ## Version 3.0.0 - 2026-10-21
 ### Added
-- Revised the project proposal document with major changes 
+- Revised the project proposal document with major changes
+- Version 3.1.0 - 2026-11-25
+### Added
+- Revised the project proposal document with major changes, especially the title, problem statement, objectives, and the flow logic.
+- 
