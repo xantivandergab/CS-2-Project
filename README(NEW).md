@@ -87,7 +87,7 @@ Food:
 
 Allocated Budget: 2000
 
-Amount Spent: ₱1000
+Amount Spent: 1000
 
 Budget Used: 50%
 
