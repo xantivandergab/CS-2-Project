@@ -9,6 +9,14 @@ Budgify is a percentage-based budget tracking program that allows users to alloc
 - Activity history to check previous expenses
 ## How to run the program
 
+1. Open a Python IDE (such as VS Code).
+
+2. Copy and paste the source code into a new file.
+
+3. Run the script.
+
+4. Follow the console instructions to set your budget, choose or input items, and view your summary.
+
 ## Inputs needed
 - Budget of user
 - Categories for rations
@@ -18,6 +26,7 @@ Budgify is a percentage-based budget tracking program that allows users to alloc
 - Option to remove a category
 - Option to change input expense
 ## Example Output
+
 Enter your budget limit: 10000
 
 Enter category (input "done" if you want to stop): Food
